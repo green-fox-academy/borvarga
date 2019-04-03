@@ -1,0 +1,32 @@
+body {
+    font-family: consolas;
+    padding: 10%;
+    background-image: url(assets/topography.png);
+}
+
+.topnav {
+    height: 32px;
+    background-color: #333333 ;
+    color: #ff0099;
+    font-size: 22px;
+    text-align: right;
+    width: 100%;
+        
+}
+
+.separator {
+    text-align: center;
+}
+
+#wannabe {
+    color: #ff0099;
+}
+
+ul {
+  list-style-type: none;
+  color: #ff0099;
+}
+
+li {
+    float: right;  
+}
