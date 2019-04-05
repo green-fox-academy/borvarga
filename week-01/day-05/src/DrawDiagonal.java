@@ -5,6 +5,6 @@ public class DrawDiagonal {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Size of the diagonal: ");
         int size = scanner.nextInt();
-        
+
     }
 }
