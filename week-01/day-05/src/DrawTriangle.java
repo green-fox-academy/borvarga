@@ -7,14 +7,15 @@ public class DrawTriangle {
         int input = scanner.nextInt();
         System.out.println("Thanks, here is your illuminate sign: ");
 
-        for (int i = 1; i <= input; i++){
-        for (int j = 1; j <= input; j++) {
-            if (j <= i)
-            System.out.print("*");
-        }
-            System.out.println();
+        for (int i = 1; i <= input; i++) {
+            for (int j = 1; j <= input; j++) {
+                if (j <= i) {
+                    System.out.print("*");
+                }
             }
-        }
 
+            System.out.println();
+        }
     }
+}
 
