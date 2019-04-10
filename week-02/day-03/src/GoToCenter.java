@@ -19,8 +19,6 @@ public class GoToCenter {
         // and draws a line from that point to the center of the canvas.
         // Draw 3 lines with that function. Use loop for that.
 
-
-
     }
 
     // Don't touch the code below
