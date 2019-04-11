@@ -1,6 +1,6 @@
 public class SumDigit {
     public static void main(String[] args) {
-        System.out.println(sumDigits(2164));
+        System.out.println(sumDigits(1337));
     }
     public static int sumDigits(int n) {
         if (n == 0) {
