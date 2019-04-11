@@ -1,6 +1,6 @@
 public class NumberAdder {
     public static void main(String[] args) {
-        System.out.println(numberAdder(1));
+        System.out.println(numberAdder(13));
     }
     public static int numberAdder (int n) {
         if (n == 1){

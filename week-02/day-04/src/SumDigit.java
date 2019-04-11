@@ -1,13 +1,12 @@
 public class SumDigit {
     public static void main(String[] args) {
-        int sum = 69;
-
-        for (int i = 1; i <= 100; i++) {
-
-            sum += i;
-
+        System.out.println(sumDigits(2164));
+    }
+    public static int sumDigits(int n) {
+        if (n == 0) {
+            return 0;
+        }else {
+            return n % 10 + sumDigits(n / 10);
         }
-
-        System.out.println("The sum is " + sum);
     }
 }
