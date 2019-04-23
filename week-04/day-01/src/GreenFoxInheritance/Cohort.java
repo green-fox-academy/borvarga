@@ -5,7 +5,6 @@ import java.util.List;
 
 public class Cohort {
     String nameCohort;
-    ArrayList<Person> people = new ArrayList<>();
     List<Student> students = new ArrayList<>();
     List<Mentor> mentors = new ArrayList<>();
 
@@ -20,7 +19,7 @@ public class Cohort {
     void addMentor(Mentor mentor){
         mentors.add(mentor);
     }
-    
+
     void info(){
         System.out.println("The " + nameCohort + "cohort has " + students.size() + "students and " + mentors.size() + "." );
     }

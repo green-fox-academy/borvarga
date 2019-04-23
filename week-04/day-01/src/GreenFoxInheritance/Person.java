@@ -14,9 +14,7 @@ public class Person {
         this.age = age;
     }
     void introduction(){
-        System.out.println("My name is " + name + "and I am a(n) " + age + " " + gender);
     }
     void getGoal() {
-        System.out.println("My goal is: Live for the moment!");
     }
 }
