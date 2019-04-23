@@ -1,9 +1,9 @@
 package GreenFoxInheritance;
 
 public class Person {
-    String name;
-    String gender;
-    int age;
+    String name = "Jane Doe";
+    String gender = "female";
+    int age = 30;
 
     Person () {
     }
