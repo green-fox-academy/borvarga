@@ -7,7 +7,7 @@ public class Sponsor extends Person{
     Sponsor(){
     }
 
-    Sponsor(String name, String gender, int age, String company){
+    Sponsor(String name, int age, String gender, String company){
         this.name = name;
         this.gender = gender;
         this.age = age;

@@ -6,7 +6,7 @@ public class Mentor extends Person {
     Mentor () {
     }
 
-    Mentor (String name, String gender, int age, String level){
+    Mentor (String name, int age, String gender, String level){
     this.name = name;
     this.gender = gender;
     this.age = age;

@@ -8,7 +8,7 @@ public class Person {
     Person () {
     }
 
-    Person (String name, String gender, int age) {
+    Person (String name, int age, String gender) {
         this.name = name;
         this.gender = gender;
         this.age = age;

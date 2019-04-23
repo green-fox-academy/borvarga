@@ -7,7 +7,7 @@ public class Student extends Person {
     Student () {
     }
 
-    Student (String name, String gender, int age, String previousOrganization){
+    Student (String name, int age, String gender, String previousOrganization){
         this.name = name;
         this.gender = gender;
         this.age = age;
