@@ -4,6 +4,16 @@ public class Student extends Person {
     String previousOrganization;
     int skippedDays;
 
+    Student () {
+    }
+
+    Student (String name, String gender, int age, String previousOrganization){
+        this.name = name;
+        this.gender = gender;
+        this.age = age;
+        this.previousOrganization = previousOrganization;
+    }
+
 
     @Override
     void getGoal() {
@@ -15,5 +25,8 @@ public class Student extends Person {
     void introduction() {
         super.introduction();
         System.out.println("Hi, I'm name, a age year old gender from" + previousOrganization + " who skipped " + skippedDays + "days from the course already");
+    }
+    int skipDays (int a){
+        return skippedDays + a;
     }
 }
