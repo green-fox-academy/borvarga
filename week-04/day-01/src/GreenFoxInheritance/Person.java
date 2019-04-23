@@ -5,6 +5,9 @@ public class Person {
     String gender;
     int age;
 
+    Person () {
+    }
+
     Person (String name, String gender, int age) {
         this.name = name;
         this.gender = gender;
