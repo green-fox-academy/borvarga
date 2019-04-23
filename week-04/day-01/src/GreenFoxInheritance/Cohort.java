@@ -42,5 +42,27 @@ public class Cohort {
         people.add(sponsor);
         Sponsor elon = new Sponsor("Elon Musk", 46, "male", "SpaceX");
         people.add(elon);
+
+        student.skipDays(3);
+
+        for (int i = 0; i < 5; i++) {
+            elon.hire();
+        }
+
+        for (int i = 0; i < 3; i++) {
+            sponsor.hire();
+        }
+
+        for(Person person : people) {
+            person.introduction();
+            person.getGoal();
+        }
+
+        Cohort awesome = new Cohort("AWESOME");
+        awesome.addStudent(student);
+        awesome.addStudent(john);
+        awesome.addMentor(mentor);
+        awesome.addMentor(gandhi);
+        awesome.info();
     }
 }

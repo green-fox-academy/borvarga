@@ -22,8 +22,8 @@ public class Sponsor extends Person{
 
     }
 
-    int hire(int a){
-        return hiredStudents + a;
+    int hire(){
+        return hiredStudents;
     }
 
     @Override
